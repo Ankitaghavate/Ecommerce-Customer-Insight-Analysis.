@@ -32,13 +32,13 @@ Copy
 python3 -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 ```
-#Install the required packages:
+## Install the required packages:
 
 ```bash
 Copy
 pip install -r requirements.txt
 ```
-#Usage
+## Usage
 Run the Jupyter Notebooks to perform data analysis and build the model. The notebooks are located in the notebooks/ directory.
 
 Run the Flask application:
@@ -49,19 +49,19 @@ python app.py
 ```
 Open your web browser and go to http://127.0.0.1:5000 to interact with the web application.
 
-#Model
+## Model
 The model is built using the Linear Regression algorithm. The features used for the model are derived from the ecommerce customer data. The model is trained and evaluated in the Jupyter Notebooks.
 
-#Flask Integration
+## Flask Integration
 The Flask application provides a user interface to interact with the model. Users can input feature values and get predictions from the model.
 
-#Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-#License
+## License
 This project is licensed under the MIT License.
 
-#Acknowledgements
+## Acknowledgements
 Flask
 Jupyter
 Scikit-Learn
