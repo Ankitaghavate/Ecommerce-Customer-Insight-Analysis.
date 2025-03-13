@@ -28,14 +28,12 @@ The goal of this project is to analyze ecommerce customer data, build a predicti
 Create and activate a virtual environment:
 
 ```bash
-Copy
 python3 -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 ```
 ## Install the required packages:
 
 ```bash
-Copy
 pip install -r requirements.txt
 ```
 ## Usage
@@ -44,7 +42,6 @@ Run the Jupyter Notebooks to perform data analysis and build the model. The note
 Run the Flask application:
 
 ```bash
-Copy
 python app.py
 ```
 Open your web browser and go to http://127.0.0.1:5000 to interact with the web application.
@@ -60,14 +57,3 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
 This project is licensed under the MIT License.
-
-## Acknowledgements
-Flask
-Jupyter
-Scikit-Learn
-
-You can update the README.md with more specific details as needed.
-```bash
-
-This `README.md` file provides a comprehensive overview of your project, including installation instructions, usage, and acknowledgments. You can copy and paste this code into your `README.md` file in your repository.
-```
