@@ -20,7 +20,7 @@ def predict():
             float(data['Time_on_App']),
             float(data['Time_on_Website']),
             float(data['Length_of_Membership']),
-            float(data['Yearly_Amount_Spent'])
+           
         ]
 
         input_data = np.array(features).reshape(1, -1)
