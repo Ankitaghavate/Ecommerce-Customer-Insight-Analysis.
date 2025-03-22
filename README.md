@@ -46,7 +46,7 @@ python app.py
 ```
 Open your web browser and go to http://127.0.0.1:5000 to interact with the web application.
 
-Alternatively, you can access the deployed application at https://ecommerce-customer-insight-analysis.onrender.com/.
+Alternatively, you can access the deployed application at https://ecommerce-customer-insight-analysis.onrender.com/
 
 ## Model
 The model is built using the Linear Regression algorithm. The features used for the model are derived from the ecommerce customer data. The model is trained and evaluated in the Jupyter Notebooks.
