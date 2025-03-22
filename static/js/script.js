@@ -7,7 +7,7 @@ document.getElementById("prediction-form").addEventListener("submit", function(e
         Time_on_App: parseFloat(document.getElementById("Time_on_App").value),
         Time_on_Website: parseFloat(document.getElementById("Time_on_Website").value),
         Length_of_Membership: parseFloat(document.getElementById("Length_of_Membership").value),
-        Yearly_Amount_Spent: parseFloat(document.getElementById("Yearly_Amount_Spent").value)
+      
     };
 
     // Send data to Flask backend
